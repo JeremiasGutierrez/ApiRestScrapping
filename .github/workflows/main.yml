@@ -5,5 +5,4 @@ jobs:
     steps:
       - run: node --version
       - run: npm --version
-      - run: cd ApiRestScrapping
-      - run: npm run start
+      - run: node ../../Scrapp.js
