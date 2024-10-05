@@ -5,5 +5,5 @@ jobs:
     steps:
       - run: node --version
       - run: npm --version
-      - run: cd ../..
+      - run: cd ApiRestScrapping
       - run: npm run start
